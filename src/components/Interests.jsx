@@ -2,6 +2,9 @@
 
 export default function Interests() {
     return (
-        <h1>Interests</h1>
+        <div className="desc">
+            <h1>Interests</h1>
+            <p> Computer and Tech Enthusiast. Food expert. Reader. Entrepreneur. Traveller. Tea Connoisseur.</p>
+        </div>
     )
 }
