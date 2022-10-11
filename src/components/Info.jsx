@@ -10,7 +10,7 @@ const icon2 = {background: '#5093E2', fill: "#fff", "vertical-align": "middle", 
 
 export default function Info() {
     return (
-        <div className="container1">
+        <div className="info">
             <img src={picture} alt="" className="profile-pic" width="500px"/>
             <h1>Abdul Mannan</h1>
             <h2>Frontend Developer</h2>
@@ -24,7 +24,7 @@ export default function Info() {
                      <button className="linkdin-btn">
                      {<RiLinkedinBoxLine size="1.8rem" style={icon2}/>}
                      LinkedIn
-                </button>
+                     </button>
             </div>
 
         </div>
