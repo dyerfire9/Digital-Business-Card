@@ -2,8 +2,10 @@
     text-align: center;
     background-color: #1A1B21;
     width: 50%;
-    margin: 0 auto;
-    padding: 0;
+    max-width:450px;
+    min-width:350px;
+    max-height: auto;
+    margin: 15px auto;
     border-radius:15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100%;
