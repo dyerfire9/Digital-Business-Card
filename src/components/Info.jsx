@@ -13,18 +13,19 @@ export default function Info() {
         <div className="info">
             <img src={picture} alt="" className="profile-pic" width="500px"/>
             <h1>Abdul Mannan</h1>
-            <h2>Frontend Developer</h2>
+            <h2>Fullstack Developer</h2>
             <h4>My Website</h4>
 
             <div className="buttons">
-                <button className="email-btn">
+                <a className="email-btn" href="http://individual.utoronto.ca/abdulmannan/" target="_blank">
                      {<RiMailOpenLine size="1.7rem" style={icon1}/>}
                      Email
-                </button>
-                     <button className="linkdin-btn">
+                </a>
+                
+                <a className="linkdin-btn" href="http://linkedin.com/in/abdulmannancomp/" target="_blank">
                      {<RiLinkedinBoxLine size="1.8rem" style={icon2}/>}
                      LinkedIn
-                     </button>
+                </a>
             </div>
 
         </div>
